@@ -1,0 +1,591 @@
+<!-- ============================================ -->
+<!-- index.html - Main HTML Structure            -->
+<!-- ============================================ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Given Prince MABHENA | IT Professional Portfolio</title>
+
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="IT Professional & Developer portfolio — Python, Cyber Security, Cisco Networking, and Web Development." />
+    <meta name="author" content="Given Prince MABHENA" />
+    <meta name="keywords" content="IT, Developer, Python, Cyber Security, Cisco, Portfolio, Ethical Hacking" />
+    <link rel="icon" href="profile.jpeg" type="image/png">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Given Prince MABHENA | IT Portfolio" />
+    <meta property="og:description" content="IT Professional & Developer — Python, Cyber Security, Cisco Networking." />
+    <meta property="og:type" content="website" />
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- ===== GLOW ORBS ===== -->
+    <div class="orb"></div>
+    <div class="orb orb--bottom"></div>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span>GP</span> MABHENA
+                <span class="badge">IT</span>
+            </div>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#profile" class="active" data-section="profile">Profile</a>
+                <a href="#skills" data-section="skills">Skills</a>
+                <a href="#experience" data-section="experience">Certificates</a>
+                <a href="#portfolio" data-section="portfolio">Portfolio</a>
+                <a href="#contact" data-section="contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== PROFILE / HERO SECTION ===== -->
+    <section class="page-section active" id="profile">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content" data-aos="fade-right" data-aos-duration="800">
+                    <div class="greeting">
+                        <i class="fas fa-hand-peace" style="margin-right:6px;"></i>
+                        Hello, I'm
+                    </div>
+                    <h1>
+                        Given Prince<br />
+                        <span class="highlight">MABHENA</span>
+                    </h1>
+                    <div class="title-role">
+                        <i class="fas fa-code" style="color:var(--accent);margin-right:8px;"></i>
+                        IT Professional &amp; Developer
+                    </div>
+                    <p>
+                        Passionate about building secure, scalable systems and crafting
+                        elegant digital experiences. Currently expanding my expertise in
+                        <strong style="color:var(--accent);">ethical hacking</strong> and
+                        <strong style="color:var(--accent);">network security</strong>.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary" data-section="contact">
+                            <i class="fas fa-paper-plane"></i> Get in Touch
+                        </a>
+                        <a href="#portfolio" class="btn btn-outline" data-section="portfolio">
+                            <i class="fas fa-folder-open"></i> View Work
+                        </a>
+                        <a href="Documents/Given_Prince_Mabhena.pdf" class="btn btn-outline" download>
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="number" data-counter="3">0</span>
+                            <span class="label">Certifications</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number" data-counter="4">0</span>
+                            <span class="label">Projects</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number" data-counter="1">0</span>
+                            <span class="label">In Progress</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-avatar" data-aos="fade-left" data-aos-duration="800">
+                    <div class="avatar-ring">
+                        <div class="inner">
+                            <img src="profile.jpeg" alt="Given Prince MABHENA" />
+                           
+                        </div>
+                    </div>
+                    <div class="floating-badge floating-badge--1">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="floating-badge floating-badge--2">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="floating-badge floating-badge--3">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section class="page-section" id="skills">
+        <div class="container">
+            <div class="section-label" data-aos="fade-up">
+                <i class="fas fa-cog" style="margin-right:6px;"></i> Expertise
+            </div>
+            <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">
+                Technical <span>Skills</span>
+            </h2>
+            <p class="section-sub" data-aos="fade-up" data-aos-delay="200">
+                Core competencies and technologies I work with daily.
+            </p>
+
+            <!-- Skill Cards Grid -->
+            <div class="skills-grid">
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="50">
+                    <div class="icon"><i class="fab fa-python"></i></div>
+                    <div class="name">Python</div>
+                    <div class="level">Advanced</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="90%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="icon"><i class="fab fa-js"></i></div>
+                    <div class="name">JavaScript</div>
+                    <div class="level">Intermediate</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="70%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="150">
+                    <div class="icon"><i class="fab fa-html5"></i></div>
+                    <div class="name">HTML5 / CSS3</div>
+                    <div class="level">Advanced</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon"><i class="fas fa-network-wired"></i></div>
+                    <div class="name">Cisco Networking</div>
+                    <div class="level">Intermediate</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="65%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="250">
+                    <div class="icon"><i class="fas fa-shield-alt"></i></div>
+                    <div class="name">Cyber Security</div>
+                    <div class="level">Intermediate</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="60%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="icon"><i class="fas fa-code-branch"></i></div>
+                    <div class="name">Git / GitHub</div>
+                    <div class="level">Advanced</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="80%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="350">
+                    <div class="icon"><i class="fas fa-cloud"></i></div>
+                    <div class="name">Cloud Platforms</div>
+                    <div class="level">Intermediate</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="55%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="icon"><i class="fas fa-database"></i></div>
+                    <div class="name">SQL / NoSQL</div>
+                    <div class="level">Intermediate</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="65%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Extra Skills Tags -->
+            <div class="skills-extra" data-aos="fade-up" data-aos-delay="450">
+                <span class="tag"><i class="fas fa-check-circle" style="color:var(--accent);margin-right:4px;"></i> OOP</span>
+                <span class="tag"><i class="fas fa-check-circle" style="color:var(--accent);margin-right:4px;"></i> REST APIs</span>
+                <span class="tag"><i class="fas fa-check-circle" style="color:var(--accent);margin-right:4px;"></i> Packet Tracer</span>
+                <span class="tag"><i class="fas fa-check-circle" style="color:var(--accent);margin-right:4px;"></i> PCAP</span>
+                <span class="tag">
+                    <i class="fas fa-check-circle" style="color:var(--accent);margin-right:4px;"></i>
+                    Ethical Hacking
+                    <span style="color:var(--text-muted);font-weight:400;">(in progress)</span>
+                </span>
+                <span class="tag"><i class="fas fa-check-circle" style="color:var(--accent);margin-right:4px;"></i> IoT</span>
+                <span class="tag"><i class="fas fa-check-circle" style="color:var(--accent);margin-right:4px;"></i> Linux</span>
+                <span class="tag"><i class="fas fa-check-circle" style="color:var(--accent);margin-right:4px;"></i> Docker</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EXPERIENCE / CERTIFICATES SECTION ===== -->
+    <section class="page-section" id="experience">
+        <div class="container">
+            <div class="section-label" data-aos="fade-up">
+                <i class="fas fa-award" style="margin-right:6px;"></i> Credentials
+            </div>
+            <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">
+                Certificates &amp; <span>Accomplishments</span>
+            </h2>
+            <p class="section-sub" data-aos="fade-up" data-aos-delay="200">
+                Verified certifications from Cisco Networking Academy and OpenEDG Python Institute.
+            </p>
+
+            <div class="cert-grid">
+                <!-- Python Essentials 2 -->
+                <div class="cert-card" data-aos="flip-left" data-aos-delay="50">
+                    <div class="icon"><i class="fab fa-python"></i></div>
+                    <h3>Python Essentials 2</h3>
+                    <div class="issuer">Cisco Networking Academy · OpenEDG Python Institute</div>
+                    <div class="desc">
+                        Designed, debugged, and refactored multi‑module Python programs.
+                        Modeled real‑life problems in OOP. Prepared for PCAP – Certified
+                        Associate in Python Programming.
+                    </div>
+                    <div class="badge-row">
+                        <span><i class="fas fa-check" style="color:var(--accent);"></i> Student Level</span>
+                        <span><i class="fas fa-code" style="color:var(--accent);"></i> Python 3</span>
+                    </div>
+                    <div class="status"><i class="fas fa-check-circle"></i> Completed</div>
+                    <a href="Documents/Python_Essentials_2_certificate.pdf" class="btn btn-outline" download>
+                            <i class="fas fa-download"></i> Download</a>
+                </div>
+                
+
+                <!-- Cyber Threat Management -->
+                <div class="cert-card" data-aos="flip-left" data-aos-delay="150">
+                    <div class="icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Cyber Threat Management</h3>
+                    <div class="issuer">Cisco Networking Academy</div>
+                    <div class="desc">
+                        Comprehensive training on identifying, analyzing, and mitigating
+                        cyber threats. Covered threat intelligence, risk management, and
+                        incident response frameworks.
+                    </div>
+                    <div class="badge-row">
+                        <span><i class="fas fa-shield" style="color:var(--accent);"></i> Threat Analysis</span>
+                        <span><i class="fas fa-bug" style="color:var(--accent);"></i> Risk Mitigation</span>
+                    </div>
+                    <div class="status"><i class="fas fa-check-circle"></i> Completed</div>
+                    <a href="Documents/Cyber_Threat_Management_certificate.pdf" class="btn btn-outline" download>
+                            <i class="fas fa-download"></i> Download</a>
+                </div>
+                
+
+                <!-- Cisco Packet Tracer -->
+                <div class="cert-card" data-aos="flip-left" data-aos-delay="250">
+                    <div class="icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>Getting Started with Cisco Packet Tracer</h3>
+                    <div class="issuer">Cisco Networking Academy</div>
+                    <div class="desc">
+                        Hands‑on experience with network simulation. Designed and
+                        configured virtual networks, practiced routing, switching, and
+                        basic network troubleshooting.
+                    </div>
+                    <div class="badge-row">
+                        <span><i class="fas fa-server" style="color:var(--accent);"></i> Network Simulation</span>
+                        <span><i class="fas fa-sitemap" style="color:var(--accent);"></i> Routing &amp; Switching</span>
+                    </div>
+                    <div class="status"><i class="fas fa-check-circle"></i> Completed</div>
+                    <a href="Documents/Cisco_Packet_Tracer_certificate.pdf" class="btn btn-outline" download>
+                            <i class="fas fa-download"></i> Download
+                    </a>
+                </div>
+                
+
+                <!-- Pending: Ethical Hacking -->
+                <div class="cert-card" data-aos="flip-left" data-aos-delay="350">
+                    <div class="icon"><i class="fas fa-user-secret"></i></div>
+                    <h3>Ethical Hacking</h3>
+                    <div class="issuer">Cisco Networking Academy</div>
+                    <div class="desc">
+                        Currently enrolled in the Ethical Hacking program. Learning
+                        penetration testing, vulnerability assessment, and defensive
+                        strategies to secure modern IT infrastructures.
+                    </div>
+                    
+                    <div class="badge-row">
+                        <span><i class="fas fa-hourglass-half" style="color:#ffc107;"></i> In Progress</span>
+                        <span><i class="fas fa-lock" style="color:#ffc107;"></i> Pen Testing</span>
+                    </div>
+                    <div class="status pending"><i class="fas fa-spinner fa-pulse"></i> Pending Completion</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PORTFOLIO SECTION ===== -->
+    <section class="page-section" id="portfolio">
+        <div class="container">
+            <div class="section-label" data-aos="fade-up">
+                <i class="fas fa-laptop-code" style="margin-right:6px;"></i> Projects
+            </div>
+            <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">
+                Featured <span>Work</span>
+            </h2>
+            <p class="section-sub" data-aos="fade-up" data-aos-delay="200">
+                A selection of projects I've built — from education platforms to community tools.
+            </p>
+
+            <div class="portfolio-grid">
+                <!-- Project 1: SA Education Guide -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="50">
+                    <div class="thumb" style="background:linear-gradient(135deg,#1a2a3a,#0b1a2a);">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="body">
+                        <h3>SA Education Guide</h3>
+                        <p>An information hub for students in South Africa, aggregating resources, bursaries, and study guides.</p>
+                        <div class="tags">
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                            <span>Education</span>
+                        </div>
+                        <div class="links">
+                            <a href="https://github.com/ThaizyCelby/Sa_Education_Guide.git" target="_blank" rel="noopener">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="#" class="demo-link" data-project="sa-education-guide">
+                                <i class="fas fa-info-circle"></i> Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: CommunityBuild -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="thumb" style="background:linear-gradient(135deg,#1a3a2a,#0b2a1a);">
+                        <i class="fas fa-people-arrows"></i>
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="body">
+                        <h3>CommunityBuild</h3>
+                        <p>A platform for community-driven projects and collaboration. Hosted live on PythonAnywhere.</p>
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>Community</span>
+                        </div>
+                        <div class="links">
+                            <a href="https://github.com/ThaizyCelby/CommunityBuild.git" target="_blank" rel="noopener">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://thaizycelby.pythonanywhere.com" target="_blank" rel="noopener">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Wethu Lenders -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="250">
+                    <div class="thumb" style="background:linear-gradient(135deg,#2a1a3a,#1a0b2a);">
+                        <i class="fas fa-hand-holding-usd"></i>
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="body">
+                        <h3>Wethu Lenders</h3>
+                        <p>A lending platform concept designed to connect small businesses with ethical micro-lenders.</p>
+                        <div class="tags">
+                            <span>JavaScript</span>
+                            <span>Node.js</span>
+                            <span>FinTech</span>
+                        </div>
+                        <div class="links">
+                            <a href="https://github.com/ThaizyCelby/Wethu_Lenders.git" target="_blank" rel="noopener">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Portfolio Site -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="350">
+                    <div class="thumb" style="background:linear-gradient(135deg,#1a2a3a,#0a1a2a);">
+                        <i class="fas fa-user-circle"></i>
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="body">
+                        <h3>Professional Portfolio</h3>
+                        <p>This very website — a modern, responsive IT portfolio showcasing my certifications and projects.</p>
+                        <div class="tags">
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                            <span>Portfolio</span>
+                        </div>
+                        <div class="links">
+                            <a href="https://thaizycelby.github.io/My-Profile/" target="_blank" rel="noopener">
+                                <i class="fas fa-external-link-alt"></i> Live
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <div class="section-label" data-aos="fade-up">
+                <i class="fas fa-envelope" style="margin-right:6px;"></i> Connect
+            </div>
+            <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">
+                Get In <span>Touch</span>
+            </h2>
+            <p class="section-sub" data-aos="fade-up" data-aos-delay="200">
+                Have a project in mind or just want to say hello? I'd love to hear from you.
+            </p>
+
+            <div class="contact-wrap">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="300">
+                    <h3>Let's talk</h3>
+                    <p>
+                        I'm currently open to new opportunities, collaborations, and
+                        interesting projects. Reach out anytime.
+                    </p>
+
+                    <div class="contact-item">
+                        <div class="icon"><i class="fas fa-envelope"></i></div>
+                        <div class="text">
+                            Email
+                            <small>
+                                <a href="mailto:Givenyprincey2027@gmail.com" style="color:var(--accent);">
+                                    Givenyprincey2027@gmail.com
+                                </a>
+                            </small>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="icon"><i class="fab fa-whatsapp"></i></div>
+                        <div class="text">
+                            WhatsApp
+                            <small>
+                                <a href="https://wa.me/27728672014" target="_blank" rel="noopener" style="color:var(--accent);">
+                                    072 867 2014
+                                </a>
+                            </small>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="icon"><i class="fas fa-phone"></i></div>
+                        <div class="text">
+                            Call
+                            <small>
+                                <a href="tel:+27728672014" style="color:var(--accent);">
+                                    072 867 2014
+                                </a>
+                            </small>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="icon"><i class="fab fa-github"></i></div>
+                        <div class="text">
+                            GitHub
+                            <small>
+                                <a href="https://github.com/ThaizyCelby" target="_blank" rel="noopener" style="color:var(--accent);">
+                                    github.com/ThaizyCelby
+                                </a>
+                            </small>
+                        </div>
+                    </div>
+
+                    <!-- <div class="contact-item">
+                        <div class="icon"><i class="fas fa-globe"></i></div>
+                        <div class="text">
+                            Portfolio
+                            <small>
+                                <a href="https://thaizycelby.github.io/My-Profile/" target="_blank" rel="noopener" style="color:var(--accent);">
+                                    thaizycelby.github.io/My-Profile
+                                </a>
+                            </small>
+                        </div>
+                    </div> -->
+                </div>
+
+                <!-- ===== CONTACT SECTION ===== -->
+                
+
+                <form class="contact-form" id="contactForm" data-aos="fade-left" data-aos-delay="400" novalidate>
+    <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="John Doe" required />
+        <span class="error-message" id="nameError"></span>
+    </div>
+    <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="john@example.com" required />
+        <span class="error-message" id="emailError"></span>
+    </div>
+    <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Project inquiry, Collaboration, etc." />
+    </div>
+    <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+        <span class="error-message" id="messageError"></span>
+    </div>
+
+    <!-- Action buttons (hidden until form is valid) -->
+    <div class="form-actions" id="formActions" style="display: none;">
+        <button type="button" class="btn btn-whatsapp" id="whatsappBtn">
+            <i class="fab fa-whatsapp"></i> Send via WhatsApp
+        </button>
+        <button type="button" class="btn btn-email" id="emailBtn">
+            <i class="fas fa-envelope"></i> Send via Email
+        </button>
+    </div>
+
+    <div class="form-status" id="formStatus"></div>
+</form>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="socials">
+                <a href="https://github.com/ThaizyCelby" target="_blank" rel="noopener" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/given-mabhena" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://wa.me/27728672014" target="_blank" rel="noopener" aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="mailto:Givenyprincey2027@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <p>
+                &copy; <span id="year"></span> <strong>Given Prince MABHENA</strong> —
+                Built with <i class="fas fa-heart" style="color:var(--accent);"></i>
+                and <i class="fas fa-code" style="color:var(--accent);"></i>
+            </p>
+        </div>
+    </footer>
+
+    <!-- ===== SCRIPTS ===== -->
+    <!-- AOS Animation Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
