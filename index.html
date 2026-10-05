@@ -344,7 +344,7 @@
                     </div>
                     <div class="body">
                         <h3>SA Education Guide</h3>
-                        <p>An information hub for students in South Africa, aggregating resources, bursaries, and study guides.</p>
+                        <p>A web-based platform helping South African students navigate higher education — universities, TVET colleges, APS calculator, career pathways, and entry-level jobs.</p>
                         <div class="tags">
                             <span>HTML/CSS</span>
                             <span>JavaScript</span>
@@ -354,8 +354,8 @@
                             <a href="https://github.com/ThaizyCelby/Sa_Education_Guide.git" target="_blank" rel="noopener">
                                 <i class="fab fa-github"></i> GitHub
                             </a>
-                            <a href="#" class="demo-link" data-project="sa-education-guide">
-                                <i class="fas fa-info-circle"></i> Details
+                            <a href="https://thaizycelby.github.io/Sa_Education_Guide/" target="_blank" rel="noopener">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
                             </a>
                         </div>
                     </div>
@@ -369,11 +369,12 @@
                     </div>
                     <div class="body">
                         <h3>CommunityBuild</h3>
-                        <p>A platform for community-driven projects and collaboration. Hosted live on PythonAnywhere.</p>
+                        <p>A Django platform connecting South African graduates with community projects. Professionals bid on projects, submit inquiries, and collaborate via a municipality dashboard.</p>
                         <div class="tags">
                             <span>Python</span>
                             <span>Django</span>
-                            <span>Community</span>
+                            <span>Bootstrap</span>
+                            <span>Chart.js</span>
                         </div>
                         <div class="links">
                             <a href="https://github.com/ThaizyCelby/CommunityBuild.git" target="_blank" rel="noopener">
@@ -393,16 +394,20 @@
                         <div class="overlay"></div>
                     </div>
                     <div class="body">
-                        <h3>Wethu Lenders</h3>
-                        <p>A lending platform concept designed to connect small businesses with ethical micro-lenders.</p>
+                        <h3>Wethu Micro Lenders</h3>
+                        <p>A security-hardened static marketing website for an NCR-registered micro lender (NCRCP22737). Features a WhatsApp-first conversion path with affordability assessment guidance.</p>
                         <div class="tags">
+                            <span>HTML/CSS</span>
                             <span>JavaScript</span>
-                            <span>Node.js</span>
                             <span>FinTech</span>
+                            <span>Security</span>
                         </div>
                         <div class="links">
                             <a href="https://github.com/ThaizyCelby/Wethu_Lenders.git" target="_blank" rel="noopener">
                                 <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://wethuml.co.za" target="_blank" rel="noopener">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
                             </a>
                         </div>
                     </div>
@@ -501,58 +506,41 @@
                             </small>
                         </div>
                     </div>
-
-                    <!-- <div class="contact-item">
-                        <div class="icon"><i class="fas fa-globe"></i></div>
-                        <div class="text">
-                            Portfolio
-                            <small>
-                                <a href="https://thaizycelby.github.io/My-Profile/" target="_blank" rel="noopener" style="color:var(--accent);">
-                                    thaizycelby.github.io/My-Profile
-                                </a>
-                            </small>
-                        </div>
-                    </div> -->
                 </div>
 
-                <!-- ===== CONTACT SECTION ===== -->
-                
-
                 <form class="contact-form" id="contactForm" data-aos="fade-left" data-aos-delay="400" novalidate>
-    <div class="form-group">
-        <label for="name">Your Name</label>
-        <input type="text" id="name" name="name" placeholder="John Doe" required />
-        <span class="error-message" id="nameError"></span>
-    </div>
-    <div class="form-group">
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="email" placeholder="john@example.com" required />
-        <span class="error-message" id="emailError"></span>
-    </div>
-    <div class="form-group">
-        <label for="subject">Subject</label>
-        <input type="text" id="subject" name="subject" placeholder="Project inquiry, Collaboration, etc." />
-    </div>
-    <div class="form-group">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
-        <span class="error-message" id="messageError"></span>
-    </div>
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required />
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="john@example.com" required />
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Project inquiry, Collaboration, etc." />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
 
-    <!-- Action buttons (hidden until form is valid) -->
-    <div class="form-actions" id="formActions" style="display: none;">
-        <button type="button" class="btn btn-whatsapp" id="whatsappBtn">
-            <i class="fab fa-whatsapp"></i> Send via WhatsApp
-        </button>
-        <button type="button" class="btn btn-email" id="emailBtn">
-            <i class="fas fa-envelope"></i> Send via Email
-        </button>
-    </div>
+                    <!-- Action buttons (hidden until form is valid) -->
+                    <div class="form-actions" id="formActions" style="display: none;">
+                        <button type="button" class="btn btn-whatsapp" id="whatsappBtn">
+                            <i class="fab fa-whatsapp"></i> Send via WhatsApp
+                        </button>
+                        <button type="button" class="btn btn-email" id="emailBtn">
+                            <i class="fas fa-envelope"></i> Send via Email
+                        </button>
+                    </div>
 
-    <div class="form-status" id="formStatus"></div>
-</form>
-
-
+                    <div class="form-status" id="formStatus"></div>
+                </form>
             </div>
         </div>
     </section>
