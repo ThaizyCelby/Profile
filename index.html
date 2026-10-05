@@ -1,5 +1,5 @@
 <!-- ============================================ -->
-<!-- index.html - Main HTML Structure            -->
+<!-- index.html - Main HTML Structure             -->
 <!-- ============================================ -->
 <!DOCTYPE html>
 <html lang="en">
@@ -42,7 +42,7 @@
                 <span class="badge">IT</span>
             </div>
 
-            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
                 <i class="fas fa-bars"></i>
             </button>
 
@@ -110,7 +110,6 @@
                     <div class="avatar-ring">
                         <div class="inner">
                             <img src="profile.jpeg" alt="Given Prince MABHENA" />
-                           
                         </div>
                     </div>
                     <div class="floating-badge floating-badge--1">
@@ -192,7 +191,7 @@
                 </div>
                 <div class="skill-card" data-aos="zoom-in" data-aos-delay="350">
                     <div class="icon"><i class="fas fa-cloud"></i></div>
-                    <div class="name">Cloud Platforms</div>
+                    <div class="name">Cloud &amp; Hosting</div>
                     <div class="level">Intermediate</div>
                     <div class="progress-bar">
                         <div class="progress-fill" data-width="55%"></div>
@@ -221,7 +220,8 @@
                 </span>
                 <span class="tag"><i class="fas fa-check-circle" style="color:var(--accent);margin-right:4px;"></i> IoT</span>
                 <span class="tag"><i class="fas fa-check-circle" style="color:var(--accent);margin-right:4px;"></i> Linux</span>
-                <span class="tag"><i class="fas fa-check-circle" style="color:var(--accent);margin-right:4px;"></i> Docker</span>
+                <span class="tag"><i class="fas fa-check-circle" style="color:var(--accent);margin-right:4px;"></i> Django</span>
+                <span class="tag"><i class="fas fa-check-circle" style="color:var(--accent);margin-right:4px;"></i> Netlify / GitHub Pages</span>
             </div>
         </div>
     </section>
@@ -256,9 +256,9 @@
                     </div>
                     <div class="status"><i class="fas fa-check-circle"></i> Completed</div>
                     <a href="Documents/Python_Essentials_2_certificate.pdf" class="btn btn-outline" download>
-                            <i class="fas fa-download"></i> Download</a>
+                        <i class="fas fa-download"></i> Download
+                    </a>
                 </div>
-                
 
                 <!-- Cyber Threat Management -->
                 <div class="cert-card" data-aos="flip-left" data-aos-delay="150">
@@ -276,9 +276,9 @@
                     </div>
                     <div class="status"><i class="fas fa-check-circle"></i> Completed</div>
                     <a href="Documents/Cyber_Threat_Management_certificate.pdf" class="btn btn-outline" download>
-                            <i class="fas fa-download"></i> Download</a>
+                        <i class="fas fa-download"></i> Download
+                    </a>
                 </div>
-                
 
                 <!-- Cisco Packet Tracer -->
                 <div class="cert-card" data-aos="flip-left" data-aos-delay="250">
@@ -296,10 +296,9 @@
                     </div>
                     <div class="status"><i class="fas fa-check-circle"></i> Completed</div>
                     <a href="Documents/Cisco_Packet_Tracer_certificate.pdf" class="btn btn-outline" download>
-                            <i class="fas fa-download"></i> Download
+                        <i class="fas fa-download"></i> Download
                     </a>
                 </div>
-                
 
                 <!-- Pending: Ethical Hacking -->
                 <div class="cert-card" data-aos="flip-left" data-aos-delay="350">
@@ -311,7 +310,6 @@
                         penetration testing, vulnerability assessment, and defensive
                         strategies to secure modern IT infrastructures.
                     </div>
-                    
                     <div class="badge-row">
                         <span><i class="fas fa-hourglass-half" style="color:#ffc107;"></i> In Progress</span>
                         <span><i class="fas fa-lock" style="color:#ffc107;"></i> Pen Testing</span>
@@ -332,82 +330,100 @@
                 Featured <span>Work</span>
             </h2>
             <p class="section-sub" data-aos="fade-up" data-aos-delay="200">
-                A selection of projects I've built — from education platforms to community tools.
+                Live products and open-source projects I've built — from fintech platforms to education hubs.
             </p>
 
             <div class="portfolio-grid">
-                <!-- Project 1: SA Education Guide -->
+
+                <!-- Project 1: Wethu Micro Lenders -->
                 <div class="project-card" data-aos="fade-up" data-aos-delay="50">
-                    <div class="thumb" style="background:linear-gradient(135deg,#1a2a3a,#0b1a2a);">
-                        <i class="fas fa-graduation-cap"></i>
-                        <div class="overlay"></div>
-                    </div>
-                    <div class="body">
-                        <h3>SA Education Guide</h3>
-                        <p>A web-based platform helping South African students navigate higher education — universities, TVET colleges, APS calculator, career pathways, and entry-level jobs.</p>
-                        <div class="tags">
-                            <span>HTML/CSS</span>
-                            <span>JavaScript</span>
-                            <span>Education</span>
-                        </div>
-                        <div class="links">
-                            <a href="https://github.com/ThaizyCelby/Sa_Education_Guide.git" target="_blank" rel="noopener">
-                                <i class="fab fa-github"></i> GitHub
-                            </a>
-                            <a href="https://thaizycelby.github.io/Sa_Education_Guide/" target="_blank" rel="noopener">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 2: CommunityBuild -->
-                <div class="project-card" data-aos="fade-up" data-aos-delay="150">
-                    <div class="thumb" style="background:linear-gradient(135deg,#1a3a2a,#0b2a1a);">
-                        <i class="fas fa-people-arrows"></i>
-                        <div class="overlay"></div>
-                    </div>
-                    <div class="body">
-                        <h3>CommunityBuild</h3>
-                        <p>A Django platform connecting South African graduates with community projects. Professionals bid on projects, submit inquiries, and collaborate via a municipality dashboard.</p>
-                        <div class="tags">
-                            <span>Python</span>
-                            <span>Django</span>
-                            <span>Bootstrap</span>
-                            <span>Chart.js</span>
-                        </div>
-                        <div class="links">
-                            <a href="https://github.com/ThaizyCelby/CommunityBuild.git" target="_blank" rel="noopener">
-                                <i class="fab fa-github"></i> GitHub
-                            </a>
-                            <a href="https://thaizycelby.pythonanywhere.com" target="_blank" rel="noopener">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 3: Wethu Lenders -->
-                <div class="project-card" data-aos="fade-up" data-aos-delay="250">
                     <div class="thumb" style="background:linear-gradient(135deg,#2a1a3a,#1a0b2a);">
+                        <span class="thumb-badge"><span class="dot"></span> Live</span>
                         <i class="fas fa-hand-holding-usd"></i>
                         <div class="overlay"></div>
                     </div>
                     <div class="body">
                         <h3>Wethu Micro Lenders</h3>
-                        <p>A security-hardened static marketing website for an NCR-registered micro lender (NCRCP22737). Features a WhatsApp-first conversion path with affordability assessment guidance.</p>
+                        <p>
+                            A micro-lending platform connecting small businesses and
+                            individuals with ethical, transparent credit. Deployed on
+                            Netlify and served from a custom domain.
+                        </p>
                         <div class="tags">
-                            <span>HTML/CSS</span>
                             <span>JavaScript</span>
+                            <span>HTML/CSS</span>
+                            <span>Netlify</span>
                             <span>FinTech</span>
-                            <span>Security</span>
                         </div>
                         <div class="links">
+                            <a href="https://wethuml.co.za" target="_blank" rel="noopener">
+                                <i class="fas fa-external-link-alt"></i> wethuml.co.za
+                            </a>
+                            <a href="https://thaizycelby.github.io/Wethu_Lenders/" target="_blank" rel="noopener">
+                                <i class="fas fa-globe"></i> GitHub Pages
+                            </a>
                             <a href="https://github.com/ThaizyCelby/Wethu_Lenders.git" target="_blank" rel="noopener">
                                 <i class="fab fa-github"></i> GitHub
                             </a>
-                            <a href="https://wethuml.co.za" target="_blank" rel="noopener">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: SA Education Guide -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="thumb" style="background:linear-gradient(135deg,#1a2a3a,#0b1a2a);">
+                        <span class="thumb-badge"><span class="dot"></span> Live</span>
+                        <i class="fas fa-graduation-cap"></i>
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="body">
+                        <h3>SA Education Guide</h3>
+                        <p>
+                            An information hub for students in South Africa, aggregating
+                            resources, bursaries, and study guides in one accessible place.
+                        </p>
+                        <div class="tags">
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                            <span>Education</span>
+                            <span>GitHub Pages</span>
+                        </div>
+                        <div class="links">
+                            <a href="https://thaizycelby.github.io/Sa_Education_Guide/" target="_blank" rel="noopener">
                                 <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/ThaizyCelby/Sa_Education_Guide.git" target="_blank" rel="noopener">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: CommunityBuild -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="250">
+                    <div class="thumb" style="background:linear-gradient(135deg,#1a3a2a,#0b2a1a);">
+                        <span class="thumb-badge"><span class="dot"></span> Live</span>
+                        <i class="fas fa-people-arrows"></i>
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="body">
+                        <h3>CommunityBuild</h3>
+                        <p>
+                            A platform for community-driven projects and collaboration.
+                            Built with Python/Django and hosted live on PythonAnywhere.
+                        </p>
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>Community</span>
+                            <span>PythonAnywhere</span>
+                        </div>
+                        <div class="links">
+                            <a href="https://thaizycelby.pythonanywhere.com" target="_blank" rel="noopener">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/ThaizyCelby/CommunityBuild.git" target="_blank" rel="noopener">
+                                <i class="fab fa-github"></i> GitHub
                             </a>
                         </div>
                     </div>
@@ -416,12 +432,16 @@
                 <!-- Project 4: Portfolio Site -->
                 <div class="project-card" data-aos="fade-up" data-aos-delay="350">
                     <div class="thumb" style="background:linear-gradient(135deg,#1a2a3a,#0a1a2a);">
+                        <span class="thumb-badge"><span class="dot"></span> Live</span>
                         <i class="fas fa-user-circle"></i>
                         <div class="overlay"></div>
                     </div>
                     <div class="body">
                         <h3>Professional Portfolio</h3>
-                        <p>This very website — a modern, responsive IT portfolio showcasing my certifications and projects.</p>
+                        <p>
+                            This very website — a modern, responsive IT portfolio
+                            showcasing my certifications, skills, and live projects.
+                        </p>
                         <div class="tags">
                             <span>HTML/CSS</span>
                             <span>JavaScript</span>
@@ -431,9 +451,13 @@
                             <a href="https://thaizycelby.github.io/My-Profile/" target="_blank" rel="noopener">
                                 <i class="fas fa-external-link-alt"></i> Live
                             </a>
+                            <a href="https://github.com/ThaizyCelby/My-Profile" target="_blank" rel="noopener">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -506,17 +530,30 @@
                             </small>
                         </div>
                     </div>
+
+                    <div class="contact-item">
+                        <div class="icon"><i class="fab fa-linkedin-in"></i></div>
+                        <div class="text">
+                            LinkedIn
+                            <small>
+                                <a href="https://linkedin.com/in/given-mabhena" target="_blank" rel="noopener" style="color:var(--accent);">
+                                    linkedin.com/in/given-mabhena
+                                </a>
+                            </small>
+                        </div>
+                    </div>
                 </div>
 
+                <!-- Contact Form -->
                 <form class="contact-form" id="contactForm" data-aos="fade-left" data-aos-delay="400" novalidate>
                     <div class="form-group">
                         <label for="name">Your Name</label>
-                        <input type="text" id="name" name="name" placeholder="John Doe" required />
+                        <input type="text" id="name" name="name" placeholder="John Doe" required autocomplete="name" />
                         <span class="error-message" id="nameError"></span>
                     </div>
                     <div class="form-group">
                         <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email" placeholder="john@example.com" required />
+                        <input type="email" id="email" name="email" placeholder="john@example.com" required autocomplete="email" />
                         <span class="error-message" id="emailError"></span>
                     </div>
                     <div class="form-group">
@@ -529,8 +566,13 @@
                         <span class="error-message" id="messageError"></span>
                     </div>
 
-                    <!-- Action buttons (hidden until form is valid) -->
-                    <div class="form-actions" id="formActions" style="display: none;">
+                    <p class="form-hint" id="formHint">
+                        <i class="fas fa-info-circle"></i>
+                        Fill in your name, email and message — then choose how to send it.
+                    </p>
+
+                    <!-- Action buttons (revealed once the form is valid) -->
+                    <div class="form-actions" id="formActions" hidden>
                         <button type="button" class="btn btn-whatsapp" id="whatsappBtn">
                             <i class="fab fa-whatsapp"></i> Send via WhatsApp
                         </button>
@@ -539,7 +581,7 @@
                         </button>
                     </div>
 
-                    <div class="form-status" id="formStatus"></div>
+                    <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
                 </form>
             </div>
         </div>
@@ -571,9 +613,7 @@
     </footer>
 
     <!-- ===== SCRIPTS ===== -->
-    <!-- AOS Animation Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <!-- Custom JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
